@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h2>Drag and Drop</h2>
+<p>Organize as imagens com a descrição correta (comece da esquerda para a direita).</p>
+
+
+<div class="grid">
+    <div id="div2">
+
+  <img src="https://www.sesisp.org.br/images/Sesi-SP.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+    </div>
+  <div id="div2">
+
+  <img src="https://media.licdn.com/dms/image/D4D0BAQGp3G70g08DKQ/company-logo_200_200/0/1688503319274/fiesp_logo?e=2147483647&v=beta&t=xzMwsehW1O4vDAzroVMTf_nLrLHZqXoE_irPoM_oaco" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+  </div>
+  <div id="div2">
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+  </div>
+</div>
+<div class="grid">
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+
+
+
+
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<div class="grid">
+
+<div id="div2">
+    <p id="text">Serviço Nacional de Aprendizagem Industrial</p>
+</div>
+
+<div id="div2">
+    <p id="text">Serviço Nacional de Aprendizagem Industrial</p>
+</div>
+
+<div id="div2">
+    <p id="text">Federação das Indústrias do Estado de São Paulo</p>
+</div>
+
+</div>
+</div>
+
+<footer>
+    <img src="imgs/Evil_Pumpkin_Dragon_3.png" id="pumpkin">
+</footer>
+    
+</body>
+</html>
